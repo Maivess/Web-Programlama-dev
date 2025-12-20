@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+@{
+    var isLoggedIn = ViewBag.IsLoggedIn as bool?;
+    var randevular = ViewBag.Randevular as List<BerberYonetimSistemi.Models.Randevu>;
+}
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berber Smart</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Özel Stil -->
+    <style>
+        body {
+            background: url('/images/arkaplanresmi.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        /* Hemen Randevu Al Butonunun Stili */
+        .btn-randevu {
+            background-color: white; /* Butonun normal rengi mavi */
+            color: black; /* Yazı rengi beyaz */
+            border: 2px solid black; /* Mavi renkte kenarlık */
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.5s ease; /* Hover efekti */
+            text-decoration: none; /* Altı çizili yazıyı engelle */
+        }
+
+        /* Hover Efekti: Buton üzerine gelindiğinde */
+        .btn-randevu:hover {
+            background-color: white; /* Arka plan beyaz olacak */
+            color: black; /* Yazı rengi siyah olacak */
+            border-color: white; /* Kenarlık mavi olacak */
+        }
+
+        .section-title {
+            background-color: rgba(255, 255, 255, 0.7); /* Silik beyaz arka plan */
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px; /* Başlık ile kartlar arasındaki boşluk azaltıldı */
+            width: 100%;
+            max-width: 900px;
+            margin-top: 30px; /* Başlık biraz daha aşağıya çekildi */
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/arkaplan.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero-section h1,
+        .hero-section p {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-section p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        #sacOnerisiDiv {
+            cursor: pointer;
+            padding: 15px;
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #sacOnerisiDiv:hover {
+            background-color: #0056b3; /* Hover efekti */
+        }
+
+     
+        /* Berberler ve Çalışanlar Kartları Aynı Kutuda Gösterilsin */
+        .berber-list-container {
+            background-color: rgba(255, 255, 255, 0.7); /* Silik beyaz arka plan */
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 900px;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+          .berber-list {
+            display: flex;
+            flex-direction: column; /* Kartları dikey sıraya yerleştir */
+            align-items: center; /* Kartları yatayda ortalar */
+            justify-content: center; /* İçeriği ortala */
+            width: 100%;
+        }
+
+        .berber-card {
+            width: 100%;
+            max-width: 800px; /* Kartlar için maksimum genişlik belirle */
+            margin-bottom: 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        /* Berber Kartı Hover Efekti */
+        .berber-card:hover {
+            transform: scale(1.05); /* Kartı büyütme efekti */
+        }
+
+        .berber-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        /* Başlık ve Kartlar Arası Boşluk */
+        .section-title {
+            background-color: rgba(255, 255, 255, 0.7); /* Silik beyaz arka plan */
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px; /* Başlık ile kartlar arasında boşluk */
+        }
+
+        /* Resim container */
+        .image-container {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            max-width: 600px; /* Resim boyutunu sınırlamak için */
+            margin: 0 auto; /* Ortalar */
+        }
+
+        .image-content {
+            width: 100%; /* Resmi container'a göre tam genişlikte yapar */
+            height: auto; /* Resmin yüksekliği oranlı olur */
+            border-radius: 10px; /* Resmin köşelerini yuvarlatır */
+            transition: transform 0.3s ease; /* Hover efekti */
+        }
+
+            .image-content:hover {
+                transform: scale(1.05); /* Resmi hover ile büyütür */
+            }
+
+        /* Altındaki açıklama */
+        .image-caption {
+            margin-top: 15px; /* Resim ve yazı arasında boşluk bırakır */
+            background-color: rgba(0, 0, 0, 0.5); /* Şeffaf siyah arka plan */
+            color: white; /* Yazı rengi beyaz */
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+            .image-caption p {
+                margin: 0;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+        /* Tıklanabilir açıklama linki */
+        .image-container a {
+            text-decoration: none; /* Link altını çizme */
+            color: white; /* Link rengi beyaz */
+        }
+
+        /* Text container */
+        .text-container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Şeffaf siyah arka plan */
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            color: white; /* Yazı rengini beyaz yapar */
+        }
+
+        /* Buton için stil */
+        .button-container {
+            display: flex;
+            justify-content: center; /* Butonu sayfanın ortasına yerleştirir */
+            align-items: center;
+            height: 100vh; /* Sayfa yüksekliği kadar yer ayırır */
+        }
+
+        .btn.btn-primary {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 40px; /* Butonun büyüklüğünü ayarlar */
+            font-size: 1.5em; /* Yazı boyutunu büyütür */
+            text-decoration: none;
+            background-color: white; /* Buton rengi beyaz */
+            color: black; /* Buton yazı rengi siyah */
+            border-radius: 10px; /* Buton köşelerini yuvarlatır */
+            transition: background-color 0.3s ease, color 0.3s ease; /* Hover efekti */
+        }
+
+            .btn.btn-primary:hover {
+                background-color: black; /* Hover durumunda arka planı siyah yapar */
+                color: white; /* Hover durumunda yazı rengini beyaz yapar */
+            }
+
+        /* Buton içindeki resim için stil */
+        .button-image {
+            width: 30px; /* Resmin genişliği */
+            height: auto;
+            margin-right: 10px; /* Resim ile metin arasında boşluk bırakır */
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>En İyi Berber Hizmetleri Burada!</h1>
+        <p>Berberinizi seçin, çalışanınızla tanışın ve profesyonel hizmetin keyfini çıkarın.</p>
+        <!-- Hemen Randevu Al Butonu -->
+        @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+        <ul class="navbar-nav ms-auto">
+            @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString("KullaniciAdi")))
+            {
+                <!-- Kullanıcı giriş yapmamışsa, giriş sayfasına yönlendir -->
+                <li class="nav-item">
+                    <a href="Kullanici/Login" class="btn-randevu">Hemen Randevu Al</a>
+                </li>
+            }
+            else
+            {
+                <!-- Kullanıcı giriş yapmışsa, randevu sayfasına yönlendir -->
+                <li class="nav-item">
+                    <a href="/Randevu/Create" class="btn-randevu">Hemen Randevu Al</a>
+                </li>
+            }
+        </ul>
+    </section>
+
+    <!-- Berberler ve Çalışanlar -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Berberler ve Çalışanlar</h2>
+            <div class="berber-list-container">
+                <div class="berber-list">
+                    @foreach (var berber in Model)
+                    {
+                        <div class="berber-card">
+                            <!-- Berber Resmi ve Tıklanabilir Link -->
+                            <a href="@Url.Action("Details", "Berber", new { id = berber.BerberId })">
+                                <img src="@(!string.IsNullOrEmpty(berber.ResimYolu) ? berber.ResimYolu : "/images/default-berber.jpg")"
+                                     alt="@berber.BerberAdi"
+                                     class="img-fluid rounded">
+                            </a>
+
+                            <!-- Berber Adı -->
+                            <h3 class="card-title text-center">@berber.BerberAdi</h3>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="text-container">
+        <p>Size uygun saç modellerini görmek için tıklayın!</p>
+    </div>
+    <!-- Saç Önerisi Al butonuna tıklayınca GetHairstyle view'ine yönlendirilir -->
+    <!-- Resim container'ı ve açıklama -->
+    <div class="image-container">
+        <a href="@Url.Action("GetHairstyle", "Hairstyle")">
+            <img src="images\BerberResmi1.jpg" alt="Saç Önerisi" class="image-content" />
+        </a>
+        <div class="image-caption">
+            <p>Yapay Zeka Destekli Saç Önerisi Al</p>
+        </div>
+    </div>
+
+
+   
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Berber Smart. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <!-- Bootstrap JS ve Bağımlılıkları -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

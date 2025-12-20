@@ -1,0 +1,33 @@
+﻿@model BerberYonetimSistemi.Models.Randevu
+
+@{
+    ViewData["Title"] = "Randevu İptal";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-danger">
+        <h3>Randevuyu İptal Et?</h3>
+        <p>Aşağıdaki randevu kaydı silinecektir. Bu işlem geri alınamaz.</p>
+    </div>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Tarih / Saat</dt>
+                <dd class="col-sm-9">@Model.Tarih.ToShortDateString() - @Model.Saat</dd>
+
+                <dt class="col-sm-3">Antrenör</dt>
+                <dd class="col-sm-9">@Model.Antrenor?.AntrenorAdi @Model.Antrenor?.AntrenorSoyadi</dd>
+
+                <dt class="col-sm-3">Hizmet</dt>
+                <dd class="col-sm-9">@Model.Hizmet?.HizmetAdi</dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="RandevuId" />
+        <button type="submit" class="btn btn-danger">Evet, İptal Et</button>
+        <a asp-action="Index" class="btn btn-secondary">Vazgeç</a>
+    </form>
+</div>

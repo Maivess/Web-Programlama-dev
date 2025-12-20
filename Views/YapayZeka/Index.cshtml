@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "AI Fitness Koçu";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-warning text-dark py-3">
+                    <h3 class="mb-0 fw-bold"><i class="fas fa-robot me-2"></i>AI Koçuna Danış</h3>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-controller="YapayZeka" asp-action="Index" method="post">
+                        <div class="mb-3">
+                            <label class="fw-bold">Yaşınız</label>
+                            <input type="number" name="yas" class="form-control" value="@ViewBag.Yas" required placeholder="Örn: 22">
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label class="fw-bold">Kilo (kg)</label>
+                                <input type="number" name="kilo" step="0.1" class="form-control" value="@ViewBag.Kilo" required placeholder="Örn: 75">
+                            </div>
+                            <div class="col">
+                                <label class="fw-bold">Boy (cm)</label>
+                                <input type="number" name="boy" step="0.1" class="form-control" value="@ViewBag.Boy" required placeholder="Örn: 180">
+                            </div>
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label class="fw-bold">Cinsiyet</label>
+                            <select name="cinsiyet" class="form-select">
+                                <option value="Erkek">Erkek</option>
+                                <option value="Kadın">Kadın</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="fw-bold">Hedefiniz Nedir?</label>
+                            <select name="hedef" class="form-select">
+                                <option value="Kilo Vermek">Kilo Vermek (Yağ Yakımı)</option>
+                                <option value="Kas Yapmak">Kas Yapmak (Hacim Kazanma)</option>
+                                <option value="Formu Korumak">Formu Korumak</option>
+                                <option value="Kondisyon Artırmak">Kondisyon Artırmak</option>
+                            </select>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-dark btn-lg fw-bold">
+                                ✨ Program Oluştur
+                            </button>
+                        </div>
+                    </form>
+
+                    @if (ViewBag.Hata != null)
+                    {
+                        <div class="alert alert-danger mt-3 shadow-sm">
+                            <i class="fas fa-exclamation-circle me-2"></i> @ViewBag.Hata
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-7">
+            @if (ViewBag.Sonuc != null)
+            {
+                <div class="card shadow border-success animate__animated animate__fadeIn">
+                    <div class="card-header bg-success text-white py-3">
+                        <h4 class="mb-0 fw-bold"><i class="fas fa-clipboard-list me-2"></i>Senin İçin Hazırlanan Plan</h4>
+                    </div>
+                    <div class="card-body p-4 fs-5">
+                        @Html.Raw(ViewBag.Sonuc)
+                    </div>
+                    <div class="card-footer bg-light text-muted">
+                        <small class="fst-italic">* Bu öneriler Google Gemini AI tarafından oluşturulmuştur.</small>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info mt-0 shadow-sm border-0 p-5 text-center">
+                    <i class="fas fa-info-circle fa-3x mb-3 text-info"></i>
+                    <h4 class="fw-bold">Nasıl Çalışır?</h4>
+                    <p class="mb-0">Yandaki formu doldurup gönderdiğinizde, yapay zeka vücut ölçülerinize ve hedeflerinize göre <strong>kişiye özel</strong> bir beslenme ve antrenman taslağı hazırlar.</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>

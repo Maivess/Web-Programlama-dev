@@ -1,0 +1,95 @@
+﻿@model IEnumerable<BerberYonetimSistemi.Models.Randevu>
+
+@{
+    ViewData["Title"] = "Randevularım";
+}
+
+<div class="container mt-5">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-dark">
+            <i class="fas fa-calendar-alt text-primary"></i> Randevularım
+        </h2>
+        <a asp-action="Create" class="btn btn-success btn-lg shadow">
+            <i class="fas fa-plus-circle"></i> Yeni Randevu Al
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center shadow-sm p-5">
+            <h4><i class="fas fa-exclamation-circle"></i> Henüz hiç randevun yok!</h4>
+            <p>Spor salonunda yerini ayırtmak için hemen "Yeni Randevu Al" butonuna tıkla.</p>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow border-0">
+            <div class="card-body p-0">
+                <table class="table table-hover table-striped mb-0 text-center align-middle">
+                    <thead class="bg-dark text-white">
+                        <tr>
+                            <th>Tarih</th>
+                            <th>Saat</th>
+                            <th>Salon / Şube</th>
+                            <th>Antrenör</th>
+                            <th>Hizmet (Ders)</th>
+                            <th>Ücret</th>
+                            <th>Durum</th>
+                            <th>Yönetim</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                @* DÜZELTME: RandevuTarih -> Tarih *@
+                                <td class="fw-bold">@item.Tarih.ToString("dd.MM.yyyy")</td>
+
+                                @* DÜZELTME: BaslangicSaati -> Saat *@
+                                <td class="text-primary fw-bold">
+                                    @item.Saat.ToString(@"hh\:mm")
+                                </td>
+
+                                @* DÜZELTME: Calisan.Berber -> Antrenor.Salon *@
+                                <td>
+                                    <i class="fas fa-map-marker-alt text-danger"></i>
+                                    @(item.Salon?.SalonAdi ?? "Bilinmiyor")
+                                </td>
+
+                                @* DÜZELTME: Calisan -> Antrenor *@
+                                <td>
+                                    <span class="badge bg-info text-dark">
+                                        @(item.Antrenor?.AntrenorAdi + " " + item.Antrenor?.AntrenorSoyadi)
+                                    </span>
+                                </td>
+
+                                @* DÜZELTME: Islem -> Hizmet *@
+                                <td>
+                                    @(item.Hizmet?.HizmetAdi ?? "Standart")
+                                </td>
+
+                                @* DÜZELTME: RandevuUcret -> Hizmet.Ucret *@
+                                <td class="text-success fw-bold">@(item.Hizmet?.Ucret) ₺</td>
+
+                                <td>
+                                    @if (item.Tarih < DateTime.Now)
+                                    {
+                                        <span class="badge bg-secondary">Tamamlandı</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-success">Aktif</span>
+                                    }
+                                </td>
+                                <td>
+                                    <a asp-action="Delete" asp-route-id="@item.RandevuId" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i> İptal</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>

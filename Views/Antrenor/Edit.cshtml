@@ -1,0 +1,74 @@
+﻿@model BerberYonetimSistemi.Models.Antrenor
+
+@{
+    ViewData["Title"] = "Antrenör Düzenle";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-warning text-dark">
+                    <h4 class="mb-0"><i class="fas fa-user-edit"></i> Antrenör Bilgilerini Düzenle</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        @* ID'yi gizli taşıyoruz *@
+                        <input type="hidden" asp-for="AntrenorId" />
+
+                        <div class="form-group mb-4">
+                            <label class="control-label fw-bold">Çalıştığı Salon</label>
+                            <select asp-for="SalonId" class="form-control form-select" asp-items="ViewBag.SalonId"></select>
+                            <span asp-validation-for="SalonId" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="AntrenorAdi" class="control-label fw-bold">Adı</label>
+                                <input asp-for="AntrenorAdi" class="form-control" />
+                                <span asp-validation-for="AntrenorAdi" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="AntrenorSoyadi" class="control-label fw-bold">Soyadı</label>
+                                <input asp-for="AntrenorSoyadi" class="form-control" />
+                                <span asp-validation-for="AntrenorSoyadi" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="AntrenorTelefon" class="control-label fw-bold">Telefon</label>
+                            <input asp-for="AntrenorTelefon" class="form-control" />
+                            <span asp-validation-for="AntrenorTelefon" class="text-danger"></span>
+                        </div>
+
+                        <div class="row mb-4">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="BaslangicSaati" class="control-label fw-bold">Mesai Başlangıç</label>
+                                <input asp-for="BaslangicSaati" type="time" class="form-control" />
+                                <span asp-validation-for="BaslangicSaati" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="BitisSaati" class="control-label fw-bold">Mesai Bitiş</label>
+                                <input asp-for="BitisSaati" type="time" class="form-control" />
+                                <span asp-validation-for="BitisSaati" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-warning fw-bold">Bilgileri Güncelle</button>
+                            <a asp-action="Index" class="btn btn-secondary">İptal</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

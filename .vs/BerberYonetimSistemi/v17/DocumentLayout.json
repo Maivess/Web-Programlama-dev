@@ -1,0 +1,1486 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\berberdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\berberdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\randevuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\randevuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\yapayzekacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\yapayzekacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\services\\geminiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:services\\geminiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\yapayzeka\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\yapayzeka\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\fitnessapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\fitnessapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\OneDrive\\Desktop\\FitnessApp (1)\\FitnessApp\\FitnessApp\\FitnessApp\\Controllers\\FitnessApiController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\randevucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\randevu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\antrenor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\antrenor\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\randevu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\randevu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\saloncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\saloncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\antrenor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\antrenor\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\OneDrive\\Desktop\\Web-Programlama-Berber-Web-Sitesi--main\\Web-Programlama-Berber-Web-Sitesi--main\\Migrations\\20251220132511_GymDonusumu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\randevu\\randevular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\randevu\\randevular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\antrenor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\antrenor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\antrenor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\antrenor\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\hizmet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\hizmet\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\uzmanlikalanlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\uzmanlikalanlari\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\uzmanlikalanlari\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\uzmanlikalanlari\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\uzmanlikalanlari\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\uzmanlikalanlari\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\uzmanlikalanlari\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\uzmanlikalanlari\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\uzmanlikalanlari\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\uzmanlikalanlari\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\salon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\salon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\salon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\salon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\salon\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\salon\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\salon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\salon\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\salon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\salon\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\randevu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\randevu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\randevu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\randevu\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\randevu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\randevu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\kullanici\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\kullanici\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\kullanici\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\kullanici\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\kullanici\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\kullanici\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\kullanici\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\kullanici\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\hizmet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\hizmet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\hizmet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\hizmet\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\hizmet\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\hizmet\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\hizmet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\hizmet\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\antrenor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\antrenor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\uzmanlikalani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\uzmanlikalani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\salon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\hizmet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\antrenor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\antrenor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\migrations\\berberdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:migrations\\berberdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\migrations\\20251215233207_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:migrations\\20251215233207_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\kullanici\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:kullanici\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\kullanici\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:kullanici\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\kullanici\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:kullanici\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\kullanici\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:kullanici\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\home\\saconerisi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:home\\saconerisi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\uzmanlikalanlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\uzmanlikalanlaricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\hizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\hizmetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\antrenorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\antrenorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/._SQLEXPRESS/BerberYonetimDb/True/SqlTable/dbo.Kullanicilar.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\berberyonetimsistemi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:berberyonetimsistemi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|c:\\users\\dell\\desktop\\web-programlama-dev\\gym-yonetim-sistemi-projesi\\migrations\\20251220132725_gymdonusumuv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910785D1-99EA-470D-A8C3-02878EDAA2AE}|BerberYonetimSistemi.csproj|solutionrelative:migrations\\20251220132725_gymdonusumuv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\YapayZeka\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\YapayZeka\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\YapayZeka\\Index.cshtml",
+              "RelativeToolTip": "Views\\YapayZeka\\Index.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwFUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T14:29:47.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "YapayZekaController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\YapayZekaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\YapayZekaController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\YapayZekaController.cs",
+              "RelativeToolTip": "Controllers\\YapayZekaController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T14:28:46.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T13:55:38.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BerberDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\BerberDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\BerberDbContext.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\BerberDbContext.cs",
+              "RelativeToolTip": "Models\\BerberDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:05:12.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RandevuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\RandevuViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RandevuViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\RandevuViewModel.cs",
+              "RelativeToolTip": "Models\\RandevuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:12:18.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Randevu.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Randevu.cs",
+              "RelativeDocumentMoniker": "Models\\Randevu.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Randevu.cs",
+              "RelativeToolTip": "Models\\Randevu.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswCEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:48:28.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Rol.cs",
+              "RelativeToolTip": "Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:12:25.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeminiServices.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Services\\GeminiServices.cs",
+              "RelativeDocumentMoniker": "Services\\GeminiServices.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Services\\GeminiServices.cs",
+              "RelativeToolTip": "Services\\GeminiServices.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T15:48:51.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FitnessApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\FitnessApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FitnessApiController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\FitnessApiController.cs",
+              "RelativeToolTip": "Controllers\\FitnessApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T15:51:52.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FitnessApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\FitnessApp (1)\\FitnessApp\\FitnessApp\\FitnessApp\\Controllers\\FitnessApiController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Desktop\\FitnessApp (1)\\FitnessApp\\FitnessApp\\FitnessApp\\Controllers\\FitnessApiController.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\FitnessApp (1)\\FitnessApp\\FitnessApp\\FitnessApp\\Controllers\\FitnessApiController.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Desktop\\FitnessApp (1)\\FitnessApp\\FitnessApp\\FitnessApp\\Controllers\\FitnessApiController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAQwFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T15:52:07.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SalonController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\SalonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SalonController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\SalonController.cs",
+              "RelativeToolTip": "Controllers\\SalonController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:29:21.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RandevuController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\RandevuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RandevuController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\RandevuController.cs",
+              "RelativeToolTip": "Controllers\\RandevuController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAUwGoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:49:02.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Randevu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Index.cshtml",
+              "RelativeToolTip": "Views\\Randevu\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T12:51:23.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\program.cs",
+              "RelativeDocumentMoniker": "program.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\program.cs",
+              "RelativeToolTip": "program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T23:14:47.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Randevular.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Randevular.cshtml",
+              "RelativeDocumentMoniker": "Views\\Randevu\\Randevular.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Randevular.cshtml",
+              "RelativeToolTip": "Views\\Randevu\\Randevular.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAUwF4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T10:42:23.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Randevu\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Create.cshtml",
+              "RelativeToolTip": "Views\\Randevu\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T10:38:50.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "Models\\Kullanici.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Kullanici.cs",
+              "RelativeToolTip": "Models\\Kullanici.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:12:09.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Antrenor\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Antrenor\\Delete.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T15:24:38.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Antrenor\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Antrenor\\Edit.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T15:19:27.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Antrenor\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Details.cshtml",
+              "RelativeToolTip": "Views\\Antrenor\\Details.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwDMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T15:20:53.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hizmet\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Hizmet\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:14:23.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20251220132725_GymDonusumuV2.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Migrations\\20251220132725_GymDonusumuV2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251220132725_GymDonusumuV2.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Migrations\\20251220132725_GymDonusumuV2.cs",
+              "RelativeToolTip": "Migrations\\20251220132725_GymDonusumuV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:27:25.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\UzmanlikAlanlari\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Index.cshtml",
+              "RelativeToolTip": "Views\\UzmanlikAlanlari\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:02:24.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251220132511_GymDonusumu.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\OneDrive\\Desktop\\Web-Programlama-Berber-Web-Sitesi--main\\Web-Programlama-Berber-Web-Sitesi--main\\Migrations\\20251220132511_GymDonusumu.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\OneDrive\\Desktop\\Web-Programlama-Berber-Web-Sitesi--main\\Web-Programlama-Berber-Web-Sitesi--main\\Migrations\\20251220132511_GymDonusumu.cs",
+              "ToolTip": "C:\\Users\\Dell\\OneDrive\\Desktop\\Web-Programlama-Berber-Web-Sitesi--main\\Web-Programlama-Berber-Web-Sitesi--main\\Migrations\\20251220132511_GymDonusumu.cs",
+              "RelativeToolTip": "..\\..\\..\\OneDrive\\Desktop\\Web-Programlama-Berber-Web-Sitesi--main\\Web-Programlama-Berber-Web-Sitesi--main\\Migrations\\20251220132511_GymDonusumu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:25:11.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\UzmanlikAlanlari\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Edit.cshtml",
+              "RelativeToolTip": "Views\\UzmanlikAlanlari\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:02:53.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\UzmanlikAlanlari\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Details.cshtml",
+              "RelativeToolTip": "Views\\UzmanlikAlanlari\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:16:17.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Antrenor\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Create.cshtml",
+              "RelativeToolTip": "Views\\Antrenor\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:18:20.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\UzmanlikAlanlari\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Create.cshtml",
+              "RelativeToolTip": "Views\\UzmanlikAlanlari\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:02:39.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:16:03.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:16:02.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Salon\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Details.cshtml",
+              "RelativeToolTip": "Views\\Salon\\Details.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T15:20:40.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Salon\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Salon\\Delete.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwB8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T15:26:38.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Salon\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Create.cshtml",
+              "RelativeToolTip": "Views\\Salon\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:18:04.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\UzmanlikAlanlari\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\UzmanlikAlanlari\\Delete.cshtml",
+              "RelativeToolTip": "Views\\UzmanlikAlanlari\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:03:05.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Randevu\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Randevu\\Edit.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:09:33.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Salon\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Salon\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T15:19:09.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Salon\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Salon\\Index.cshtml",
+              "RelativeToolTip": "Views\\Salon\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBkAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:09:55.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Randevu\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Details.cshtml",
+              "RelativeToolTip": "Views\\Randevu\\Details.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T12:52:04.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Randevu\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Randevu\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Randevu\\Delete.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T12:51:40.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\UserDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\UserDashboard.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\UserDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:14:57.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\Index.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:14:51.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:14:46.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hizmet\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Hizmet\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwBsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T12:43:40.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hizmet\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Details.cshtml",
+              "RelativeToolTip": "Views\\Hizmet\\Details.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:08:57.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Antrenor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Antrenor\\Index.cshtml",
+              "RelativeToolTip": "Views\\Antrenor\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:10:37.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\Login.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\Login.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:24:21.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Kullanici\\Register.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\Register.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAwwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:24:50.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hizmet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Index.cshtml",
+              "RelativeToolTip": "Views\\Hizmet\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:10:56.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:23:52.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:53.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:50.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:47.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hizmet\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Hizmet\\Create.cshtml",
+              "RelativeToolTip": "Views\\Hizmet\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:18:26.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:44.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:41.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:37.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:30.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:27.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:13:23.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:12:28.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:12:01.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:11:48.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Salon.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Salon.cs",
+              "RelativeDocumentMoniker": "Models\\Salon.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Salon.cs",
+              "RelativeToolTip": "Models\\Salon.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:24:05.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "UzmanlikAlani.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\UzmanlikAlani.cs",
+              "RelativeDocumentMoniker": "Models\\UzmanlikAlani.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\UzmanlikAlani.cs",
+              "RelativeToolTip": "Models\\UzmanlikAlani.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:50:41.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "BerberDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Migrations\\BerberDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\BerberDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Migrations\\BerberDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\BerberDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:11:42.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "Kullanici\\UserDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\UserDashboard.cshtml",
+              "RelativeToolTip": "Kullanici\\UserDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:11:32.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Antrenor.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Antrenor.cs",
+              "RelativeDocumentMoniker": "Models\\Antrenor.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Antrenor.cs",
+              "RelativeToolTip": "Models\\Antrenor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:04:37.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Hizmet.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Hizmet.cs",
+              "RelativeDocumentMoniker": "Models\\Hizmet.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Models\\Hizmet.cs",
+              "RelativeToolTip": "Models\\Hizmet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:04:51.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "SacOnerisi.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Home\\SacOnerisi.cshtml",
+              "RelativeDocumentMoniker": "Home\\SacOnerisi.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Home\\SacOnerisi.cshtml",
+              "RelativeToolTip": "Home\\SacOnerisi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:11:20.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:11:16.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Home\\Index.cshtml",
+              "RelativeToolTip": "Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T13:11:12.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\Index.cshtml",
+              "RelativeDocumentMoniker": "Kullanici\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\Index.cshtml",
+              "RelativeToolTip": "Kullanici\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T12:46:01.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20251215233207_IlkKurulum.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Migrations\\20251215233207_IlkKurulum.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251215233207_IlkKurulum.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Migrations\\20251215233207_IlkKurulum.cs",
+              "RelativeToolTip": "Migrations\\20251215233207_IlkKurulum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T23:32:07.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KullaniciController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:10:55.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\Login.cshtml",
+              "RelativeDocumentMoniker": "Kullanici\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\Login.cshtml",
+              "RelativeToolTip": "Kullanici\\Login.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T12:46:07.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\Register.cshtml",
+              "RelativeDocumentMoniker": "Kullanici\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Kullanici\\Register.cshtml",
+              "RelativeToolTip": "Kullanici\\Register.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-20T12:46:13.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "HizmetController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\HizmetController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HizmetController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\HizmetController.cs",
+              "RelativeToolTip": "Controllers\\HizmetController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAwwIgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:06:50.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:10:44.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "UzmanlikAlanlariController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\UzmanlikAlanlariController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UzmanlikAlanlariController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\UzmanlikAlanlariController.cs",
+              "RelativeToolTip": "Controllers\\UzmanlikAlanlariController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAgwHQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:08:01.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T13:10:37.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Admin\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:20:30.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Details.cshtml",
+              "RelativeToolTip": "Admin\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:20:47.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:21:04.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Create.cshtml",
+              "RelativeToolTip": "Admin\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:20:58.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwCIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:48:01.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Admin\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Admin\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:20:54.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "AntrenorController.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\AntrenorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AntrenorController.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Controllers\\AntrenorController.cs",
+              "RelativeToolTip": "Controllers\\AntrenorController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwIcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T12:30:40.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Admin\\Edit.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-16T14:20:38.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "dbo.Kullanicilar.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/._SQLEXPRESS/BerberYonetimDb/True/SqlTable/dbo.Kullanicilar.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/._SQLEXPRESS/BerberYonetimDb/True/SqlTable/dbo.Kullanicilar.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-16T14:56:36.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "BerberYonetimSistemi.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\BerberYonetimSistemi.csproj",
+              "RelativeDocumentMoniker": "BerberYonetimSistemi.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\BerberYonetimSistemi.csproj",
+              "RelativeToolTip": "BerberYonetimSistemi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T22:56:40.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\Web-Programlama-dev\\Gym-Yonetim-Sistemi-Projesi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-15T22:54:55.794Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

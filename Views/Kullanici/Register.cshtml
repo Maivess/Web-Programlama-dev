@@ -1,0 +1,70 @@
+﻿@model BerberYonetimSistemi.Models.Kullanici
+
+@{
+    ViewData["Title"] = "Kayıt Ol";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header bg-warning text-dark text-center">
+                    <h3 class="font-weight-light my-2"><i class="fas fa-user-plus"></i> Aramıza Katıl</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Register">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="KullaniciAdi" class="form-control" placeholder="Email veya Öğrenci No" />
+                            <label class="fw-bold">Kullanıcı Adı (Öğrenci Mailini Buraya Yaz)</label>
+                            <span asp-validation-for="KullaniciAdi" class="text-danger"></span>
+                            <small class="text-muted">Örn: b201210001@sakarya.edu.tr</small>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <div class="form-floating">
+                                    <input asp-for="KullaniciSoyadi" class="form-control" placeholder="Soyadınız" />
+                                    <label>Soyadınız</label>
+                                    <span asp-validation-for="KullaniciSoyadi" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="KullaniciTelefon" class="form-control" placeholder="Telefon" />
+                            <label>Telefon Numarası</label>
+                            <span asp-validation-for="KullaniciTelefon" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="KullaniciSifre" type="password" class="form-control" placeholder="Şifre" />
+                            <label>Şifre</label>
+                            <span asp-validation-for="KullaniciSifre" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input asp-for="KullaniciSifreTekrar" type="password" class="form-control" placeholder="Şifre Tekrar" />
+                            <label>Şifre Tekrar</label>
+                            <span asp-validation-for="KullaniciSifreTekrar" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid mt-4 mb-0">
+                            <button type="submit" class="btn btn-dark btn-block">Kayıt Ol</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center py-3">
+                    <div class="small"><a asp-action="Login" class="text-decoration-none text-muted">Zaten hesabın var mı? Giriş Yap</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

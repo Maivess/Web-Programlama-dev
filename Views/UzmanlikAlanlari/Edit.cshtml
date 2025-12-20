@@ -1,0 +1,35 @@
+﻿@model BerberYonetimSistemi.Models.UzmanlikAlani
+
+@{
+    ViewData["Title"] = "Düzenle";
+}
+
+<div class="container mt-5">
+    <h4>Kategoriyi Düzenle</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="UzmanlikAlaniId" />
+
+                <div class="form-group mb-3">
+                    <label asp-for="UzmanlikAlaniAdi" class="control-label">Kategori Adı</label>
+                    <input asp-for="UzmanlikAlaniAdi" class="form-control" />
+                    <span asp-validation-for="UzmanlikAlaniAdi" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Güncelle</button>
+                    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

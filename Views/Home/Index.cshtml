@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="p-5 mb-4 bg-dark rounded-3 text-white" style="background-image: url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center; position: relative;">
+    <div style="background-color: rgba(0,0,0,0.6); position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0.3rem;"></div>
+
+    <div class="container-fluid py-5 position-relative">
+        <h1 class="display-4 fw-bold text-warning">Şehrin En İyi Spor Salonu!</h1>
+        <p class="col-md-8 fs-4">Sınırlarını zorla, değişimine bugün başla. Profesyonel antrenörler ve modern ekipmanlarla hedefine ulaş.</p>
+        <a asp-controller="Randevu" asp-action="Index" class="btn btn-warning btn-lg mt-3 fw-bold text-dark">
+            <i class="fas fa-calendar-alt"></i> Program Oluştur
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row align-items-md-stretch">
+        <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 text-white bg-secondary rounded-3 shadow">
+                <h2 class="text-warning"><i class="fas fa-dumbbell"></i> Antrenörünü Seç</h2>
+                <p>Alanında uzman eğitmenlerimizle tanışın. Size en uygun programı hazırlayacak koçu seçin.</p>
+                <a asp-controller="Antrenor" asp-action="Index" class="btn btn-outline-light">Antrenörleri İncele</a>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="h-100 p-5 bg-light border rounded-3 shadow-sm">
+                <h2 class="text-dark"><i class="fas fa-list-alt"></i> Hizmetlerimiz</h2>
+                <p>Fitness, Pilates, Yoga, Crossfit ve daha fazlası. Fiyatları inceleyin.</p>
+                <a asp-controller="Hizmet" asp-action="Index" class="btn btn-dark">Fiyat Listesi</a>
+            </div>
+        </div>
+    </div>
+</div>

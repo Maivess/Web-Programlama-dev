@@ -1,0 +1,40 @@
+﻿@model BerberYonetimSistemi.Models.Salon
+
+@{
+    ViewData["Title"] = "Salon Sil";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0">Salonu Silmek İstiyor musunuz?</h4>
+                </div>
+                <div class="card-body">
+                    <p class="lead text-center">
+                        <strong>@Model.SalonAdi</strong> adlı şubeyi silmek üzeresiniz.<br />
+                        <small class="text-muted">Bu işlem geri alınamaz ve bu salona bağlı tüm veriler etkilenebilir.</small>
+                    </p>
+
+                    <dl class="row">
+                        <dt class="col-sm-4">Şehir / İlçe</dt>
+                        <dd class="col-sm-8">@Model.Sehir / @Model.Ilce</dd>
+
+                        <dt class="col-sm-4">Telefon</dt>
+                        <dd class="col-sm-8">@Model.Telefon</dd>
+                    </dl>
+
+                    <form asp-action="Delete">
+                        @* ID'yi gizli olarak taşıyoruz *@
+                        <input type="hidden" asp-for="SalonId" />
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-danger btn-lg">Evet, Sil</button>
+                            <a asp-action="Index" class="btn btn-secondary">Vazgeç</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

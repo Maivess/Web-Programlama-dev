@@ -1,0 +1,35 @@
+﻿@model BerberYonetimSistemi.Models.Antrenor
+@{
+    ViewData["Title"] = "Yeni Antrenör";
+}
+
+<div class="container mt-5">
+    <h4>Yeni Antrenör Ekle</h4>
+    <form asp-action="Create">
+        <div class="form-group mb-3">
+            <label class="control-label">Çalışacağı Salon</label>
+            <select asp-for="SalonId" class="form-control" asp-items="ViewBag.SalonId"></select>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="AntrenorAdi" class="control-label">Adı</label>
+            <input asp-for="AntrenorAdi" class="form-control" />
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="AntrenorSoyadi" class="control-label">Soyadı</label>
+            <input asp-for="AntrenorSoyadi" class="form-control" />
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="AntrenorTelefon" class="control-label">Telefon</label>
+            <input asp-for="AntrenorTelefon" class="form-control" />
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="BaslangicSaati" class="control-label">Mesai Başlangıç</label>
+            <input asp-for="BaslangicSaati" type="time" class="form-control" />
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="BitisSaati" class="control-label">Mesai Bitiş</label>
+            <input asp-for="BitisSaati" type="time" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-success">Kaydet</button>
+    </form>
+</div>

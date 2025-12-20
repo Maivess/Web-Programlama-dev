@@ -1,0 +1,32 @@
+﻿@model BerberYonetimSistemi.Models.Hizmet
+
+@{
+    ViewData["Title"] = "Hizmet Detayı";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4>Hizmet Detayları</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Hizmet Adı</dt>
+                <dd class="col-sm-9">@Model.HizmetAdi</dd>
+
+                <dt class="col-sm-3">Kategori</dt>
+                <dd class="col-sm-9">@Model.UzmanlikAlani?.UzmanlikAlaniAdi</dd>
+
+                <dt class="col-sm-3">Ücret</dt>
+                <dd class="col-sm-9">@Model.Ucret TL</dd>
+
+                <dt class="col-sm-3">Süre</dt>
+                <dd class="col-sm-9">@Model.Sure dk</dd>
+            </dl>
+        </div>
+        <div class="card-footer">
+            <a asp-action="Edit" asp-route-id="@Model.HizmetId" class="btn btn-warning">Düzenle</a>
+            <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+        </div>
+    </div>
+</div>

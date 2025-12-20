@@ -1,0 +1,28 @@
+﻿@model BerberYonetimSistemi.Models.Hizmet
+@{
+    ViewData["Title"] = "Hizmet Düzenle";
+}
+
+<div class="container mt-5">
+    <h4>Hizmeti Düzenle</h4>
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="HizmetId" />
+        <div class="form-group mb-3">
+            <label class="control-label">Kategori</label>
+            <select asp-for="UzmanlikAlaniId" class="form-control" asp-items="ViewBag.UzmanlikAlaniId"></select>
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="HizmetAdi" class="control-label">Hizmet Adı</label>
+            <input asp-for="HizmetAdi" class="form-control" />
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Ucret" class="control-label">Ücret</label>
+            <input asp-for="Ucret" class="form-control" type="number" step="0.01" />
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="Sure" class="control-label">Süre (Dk)</label>
+            <input asp-for="Sure" class="form-control" type="number" />
+        </div>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </form>
+</div>

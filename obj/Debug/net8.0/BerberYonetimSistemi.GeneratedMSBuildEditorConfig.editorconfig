@@ -1,0 +1,275 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BerberYonetimSistemi
+build_property.RootNamespace = BerberYonetimSistemi
+build_property.ProjectDir = C:\Users\Dell\Desktop\Web-Programlama-dev\Gym-Yonetim-Sistemi-Projesi\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Dell\Desktop\Web-Programlama-dev\Gym-Yonetim-Sistemi-Projesi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Home/SacOnerisi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SG9tZVxTYWNPbmVyaXNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Kullanici/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = S3VsbGFuaWNpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Kullanici/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = S3VsbGFuaWNpXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Kullanici/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = S3VsbGFuaWNpXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Kullanici/UserDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = S3VsbGFuaWNpXFVzZXJEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Antrenor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Antrenor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Antrenor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Antrenor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Antrenor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW50cmVub3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Hizmet/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Hizmet/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Hizmet/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Hizmet/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Hizmet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGl6bWV0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Kullanici/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Kullanici/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Kullanici/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Kullanici/UserDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXFVzZXJEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Randevu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Randevu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Randevu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Randevu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Randevu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Randevu/Randevular.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFuZGV2dVxSYW5kZXZ1bGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Salon/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Fsb25cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Salon/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Fsb25cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Salon/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Fsb25cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Salon/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Fsb25cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Salon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Fsb25cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/UzmanlikAlanlari/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5saWtBbGFubGFyaVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/UzmanlikAlanlari/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5saWtBbGFubGFyaVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/UzmanlikAlanlari/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5saWtBbGFubGFyaVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/UzmanlikAlanlari/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5saWtBbGFubGFyaVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/UzmanlikAlanlari/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXptYW5saWtBbGFubGFyaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/YapayZeka/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWFwYXlaZWthXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mqrydadsgn
+
+[C:/Users/Dell/Desktop/Web-Programlama-dev/Gym-Yonetim-Sistemi-Projesi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-et3cspzpoc

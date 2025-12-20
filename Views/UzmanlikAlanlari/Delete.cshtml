@@ -1,0 +1,24 @@
+﻿@model BerberYonetimSistemi.Models.UzmanlikAlani
+
+@{
+    ViewData["Title"] = "Sil";
+}
+
+<div class="container mt-5">
+    <div class="alert alert-danger">
+        <h4>Bu kategoriyi silmek istediğinize emin misiniz?</h4>
+        <p>Buna bağlı hizmetler etkilenebilir.</p>
+    </div>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <strong>Kategori Adı:</strong> @Model.UzmanlikAlaniAdi
+        </div>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="UzmanlikAlaniId" />
+        <button type="submit" class="btn btn-danger">Evet, Sil</button>
+        <a asp-action="Index" class="btn btn-secondary">Vazgeç</a>
+    </form>
+</div>

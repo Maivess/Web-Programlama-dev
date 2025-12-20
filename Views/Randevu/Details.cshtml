@@ -1,0 +1,38 @@
+﻿@model BerberYonetimSistemi.Models.Randevu
+
+@{
+    ViewData["Title"] = "Randevu Detayı";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-info text-white">
+            <h4>Randevu Bilgileri</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Tarih</dt>
+                <dd class="col-sm-9">@Model.Tarih.ToShortDateString()</dd>
+
+                <dt class="col-sm-3">Saat</dt>
+                <dd class="col-sm-9">@Model.Saat</dd>
+
+                <dt class="col-sm-3">Salon</dt>
+                <dd class="col-sm-9">@Model.Salon?.SalonAdi</dd>
+
+                <dt class="col-sm-3">Antrenör</dt>
+                <dd class="col-sm-9">@Model.Antrenor?.AntrenorAdi @Model.Antrenor?.AntrenorSoyadi</dd>
+
+                <dt class="col-sm-3">Hizmet</dt>
+                <dd class="col-sm-9">@Model.Hizmet?.HizmetAdi</dd>
+
+                <dt class="col-sm-3">Ücret</dt>
+                <dd class="col-sm-9">@Model.Hizmet?.Ucret ₺</dd>
+            </dl>
+        </div>
+        <div class="card-footer">
+            <a asp-action="Edit" asp-route-id="@Model.RandevuId" class="btn btn-warning">Düzenle</a>
+            <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+        </div>
+    </div>
+</div>

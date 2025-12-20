@@ -1,0 +1,65 @@
+﻿<!-- Saç Önerisi Sayfası (sac-onerisi.cshtml) -->
+<h2>AI ile Saç Önerisi Al</h2>
+
+<form id="imageForm" enctype="multipart/form-data">
+    <label for="imageUpload">Resminizi Yükleyin:</label>
+    <input type="file" id="imageUpload" name="image" accept="image/*" required />
+
+    <!-- Metin İstemini Almak İçin -->
+    <label for="textPrompt">Saç Modeli İstemi:</label>
+    <input type="text" id="textPrompt" name="textPrompt" placeholder="Saç tipi veya model önerisi" required />
+
+    <button type="submit">Saç Önerisi Al</button>
+</form>
+
+<div id="resultContainer">
+    <h3>Saç Önerisi:</h3>
+    <img id="outputImage" src="" alt="Saç Önerisi Görseli" />
+</div>
+
+<script>
+    document.getElementById("imageForm").addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        // Resmi ve metin istemini al
+        let formData = new FormData();
+        let imageFile = document.getElementById("imageUpload").files[0];
+        let textPrompt = document.getElementById("textPrompt").value; // Kullanıcının girdiği metin istemi
+
+        if (!imageFile) {
+            alert("Lütfen bir resim yükleyin.");
+            return;
+        }
+
+        formData.append("image", imageFile);
+        formData.append("textPrompt", textPrompt);
+
+        // API'ye isteği gönder
+        fetch('https://cors-anywhere.herokuapp.com/https://api.lightxeditor.com/external/api/v1/hairstyle', {
+            method: 'POST',
+            headers: {
+                'x-api-key': 'e09fa7bb46af435980bb2de5cc33a209_be997aec631c4af7a58ef250a83c239c_andoraitools'  // Buraya API anahtarınızı ekleyin
+            },
+            body: formData
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP Hatası: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                // API'den gelen sonucu işleyin
+                if (data.statusCode === 2000 && data.body && data.body.output) {
+                    // Saç önerisi başarılıysa görseli göster
+                    document.getElementById("outputImage").src = data.body.output;
+                } else {
+                    alert("Saç önerisi alırken bir hata oluştu: " + (data.message || "Bilinmeyen hata."));
+                }
+            })
+            .catch(error => {
+                console.error("Hata oluştu: ", error);
+                alert("Bir hata oluştu: " + error.message);
+            });
+    });
+</script>

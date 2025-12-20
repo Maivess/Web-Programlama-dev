@@ -1,0 +1,36 @@
+﻿@model BerberYonetimSistemi.Models.Antrenor
+
+@{
+    ViewData["Title"] = "Antrenör Sil";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="alert alert-danger text-center shadow">
+                <h4><i class="fas fa-exclamation-triangle"></i> Dikkat!</h4>
+                <p class="mb-0">Bu antrenörü silmek istediğinize emin misiniz?</p>
+                <small>Bu işlem geri alınamaz.</small>
+            </div>
+
+            <div class="card shadow mb-3">
+                <div class="card-body text-center">
+                    <h3 class="card-title">@Model.AntrenorAdi @Model.AntrenorSoyadi</h3>
+                    <p class="card-text text-muted">@Model.Salon?.SalonAdi</p>
+                    <hr />
+                    <dl class="row text-start">
+                        <dt class="col-sm-4">Telefon:</dt>
+                        <dd class="col-sm-8">@Model.AntrenorTelefon</dd>
+                    </dl>
+                </div>
+            </div>
+
+            <form asp-action="Delete" class="text-center">
+                @* Gizli ID çok önemli, silme işlemi buna göre yapılır *@
+                <input type="hidden" asp-for="AntrenorId" />
+                <button type="submit" class="btn btn-danger btn-lg w-100 mb-2">Evet, Sil</button>
+                <a asp-action="Index" class="btn btn-secondary w-100">Vazgeç</a>
+            </form>
+        </div>
+    </div>
+</div>

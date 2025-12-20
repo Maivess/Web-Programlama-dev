@@ -1,0 +1,154 @@
+﻿@model BerberYonetimSistemi.Models.Kullanici
+@{
+    ViewData["Title"] = "Kaydol";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Özel Stil -->
+    <style>
+        body {
+            background-color: lightslategray; /* Sayfa arka planını açık gri yap */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .register-container {
+            background-color: darkgray;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px; /* Maksimum genişlik */
+            margin: 50px auto; /* Sayfa ortasında hizalama */
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white; /* Başlık yazı rengini beyaz yap */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 1rem;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            width: 100%;
+            padding: 10px;
+            background-color: #6c757d;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+            .btn-primary:hover {
+                background-color: white;
+                color: black; /* Hover durumunda yazı rengi siyah olacak */
+            }
+
+        .btn-secondary {
+            width: 100%;
+            padding: 10px;
+            background-color: #6c757d;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+            .btn-secondary:hover {
+                background-color: white;
+                color: black; /* Hover durumunda yazı rengi siyah olacak */
+            }
+
+        .text-danger {
+            text-align: center;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sayfa içeriği -->
+    <div class="register-container">
+        <h2>Kaydol</h2>
+
+        <form asp-action="Register" method="post">
+            <div class="form-group">
+                <label for="kullaniciAdi">Kullanıcı Adı</label>
+                <input type="text" name="KullaniciAdi" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="kullaniciSoyadi">Soyad</label>
+                <input type="text" name="KullaniciSoyadi" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="kullaniciTelefon">Telefon</label>
+                <input type="text" name="KullaniciTelefon" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="kullaniciSifre">Şifre</label>
+                <input type="password" name="KullaniciSifre" class="form-control" required />
+            </div>
+
+            <div class="form-group">
+                <label for="kullaniciSifreTekrar">Şifre Tekrarı</label>
+                <input type="password" name="KullaniciSifreTekrar" class="form-control" required />
+            </div>
+
+           
+            <button type="submit" class="btn btn-primary mt-3">Kaydol</button>
+
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger mt-3">
+                    <ul>
+                        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                        {
+                            <li>@error.ErrorMessage</li>
+                        }
+                    </ul>
+                </div>
+            }
+
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <p class="text-danger">@ViewBag.ErrorMessage</p>
+            }
+        </form>
+    </div>
+
+    <!-- Bootstrap 5 JS ve Popper.js (CDN üzerinden) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

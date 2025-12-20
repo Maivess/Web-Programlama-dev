@@ -1,0 +1,33 @@
+﻿@model IEnumerable<BerberYonetimSistemi.Models.Salon>
+
+@{
+    ViewData["Title"] = "Salonlar";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between mb-3">
+        <h2>Spor Salonları</h2>
+        <a asp-action="Create" class="btn btn-success">Yeni Salon Ekle</a>
+    </div>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.SalonAdi</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@item.Ilce / @item.Sehir</h6>
+                        <p class="card-text">@item.Adres</p>
+                        <p class="card-text"><small class="text-muted">Tel: @item.Telefon</small></p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <a asp-action="Edit" asp-route-id="@item.SalonId" class="btn btn-sm btn-warning">Düzenle</a>
+                        <a asp-action="Details" asp-route-id="@item.SalonId" class="btn btn-sm btn-info text-white">Detay</a>
+                        <a asp-action="Delete" asp-route-id="@item.SalonId" class="btn btn-sm btn-danger">Sil</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

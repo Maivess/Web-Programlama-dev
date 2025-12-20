@@ -1,0 +1,54 @@
+﻿@model BerberYonetimSistemi.Models.Antrenor
+
+@{
+    ViewData["Title"] = "Antrenör Profili";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-warning text-center py-3">
+                    <div class="rounded-circle bg-white d-inline-flex justify-content-center align-items-center shadow-sm" style="width: 80px; height: 80px;">
+                        <i class="fas fa-user-ninja fa-2x text-dark"></i>
+                    </div>
+                    @* DÜZELTME: CalisanAdi -> AntrenorAdi *@
+                    <h3 class="mt-2 mb-0 fw-bold text-dark">@Model.AntrenorAdi @Model.AntrenorSoyadi</h3>
+                    <span class="badge bg-dark mt-2">Profesyonel Eğitmen</span>
+                </div>
+                <div class="card-body p-4">
+                    <div class="mb-3 border-bottom pb-2">
+                        <label class="text-muted small text-uppercase fw-bold">Bağlı Olduğu Salon</label>
+                        <p class="fs-5 fw-bold text-primary mb-0">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            @* DÜZELTME: Berber -> Salon *@
+                            @(Model.Salon != null ? Model.Salon.SalonAdi : "Atanmamış")
+                        </p>
+                    </div>
+
+                    <div class="mb-3 border-bottom pb-2">
+                        <label class="text-muted small text-uppercase fw-bold">İletişim</label>
+                        @* DÜZELTME: CalisanTelefon -> AntrenorTelefon *@
+                        <p class="fs-5 mb-0"><i class="fas fa-phone me-2 text-success"></i> @Model.AntrenorTelefon</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="text-muted small text-uppercase fw-bold">Mesai Saatleri</label>
+                        <div class="d-flex align-items-center">
+                            @* DÜZELTME: CalisanBaslangicSaati -> BaslangicSaati *@
+                            <span class="badge bg-secondary p-2 me-2">@Model.BaslangicSaati</span>
+                            <i class="fas fa-arrow-right text-muted"></i>
+                            @* DÜZELTME: CalisanBitisSaati -> BitisSaati *@
+                            <span class="badge bg-secondary p-2 ms-2">@Model.BitisSaati</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-between p-3">
+                    @* DÜZELTME: CalisanId -> AntrenorId *@
+                    <a asp-action="Edit" asp-route-id="@Model.AntrenorId" class="btn btn-outline-dark fw-bold w-50 me-2">Düzenle</a>
+                    <a asp-action="Index" class="btn btn-dark w-50">Listeye Dön</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
