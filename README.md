@@ -28,14 +28,4 @@ Antrenorler & Hizmetler (Many-to-Many İlişki)
 
 Randevular (Kullanıcı, Salon, Hizmet ve Antrenör bağlantılı merkezi tablo)
 
-🔧 Kurulum
-Repoyu bilgisayarınıza clone'layın: git clone https://github.com/Maivess/Web-Programlama-dev.git
 
-appsettings.json dosyasındaki ConnectionStrings bölümünü kendi SQL Server adresinize göre düzenleyin.
-
-Package Manager Console üzerinden veritabanını oluşturun:
-
-Bash
-
-Update-Database
-Projeyi çalıştırın.
